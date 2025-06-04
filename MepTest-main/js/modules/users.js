@@ -59,7 +59,7 @@ class UsersModule {
                         <nav class="tab-navigation">
                             <button class="tab-btn active" data-tab="dashboard">
                                 <i data-lucide="layout-dashboard"></i>
-                                Dashboard
+                                Inicio
                             </button>
                             <button class="tab-btn" data-tab="users">
                                 <i data-lucide="users"></i>

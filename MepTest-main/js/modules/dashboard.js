@@ -151,7 +151,7 @@ class DashboardModule {
                 client: 'TechSolutions Inc.',
                 progress: 78,
                 status: 'En Progreso',
-                deadline: '15 Jun 2025'
+                deadline: '28 Jun 2025'
             },
             {
                 id: 'crm-360',
