@@ -113,7 +113,8 @@ class MEPApplication {
         rrhh: new RRHHModule(),
         inventory: new InventoryModule(),
         settings: new SettingsModule(),
-        support: new SupportModule()  // ✅ AÑADIDO
+        support: new SupportModule(),
+        users: new UsersModule()
     };
     
     console.log('✅ Módulos inicializados:', Object.keys(this.modules));
@@ -374,22 +375,7 @@ class MEPApplication {
 }
 
 // Crear clases simples para módulos faltantes
-class UsersModule {
-    async render(container) {
-        container.innerHTML = `
-            <div class="module-content">
-                <h2 style="font-size: 2rem; font-weight: 800; color: #1f2937; margin-bottom: 1rem;">
-                    Gestión de Usuarios
-                </h2>
-                <div style="background: #f3f4f6; padding: 2rem; border-radius: 8px; text-align: center;">
-                    <p style="color: #6b7280; font-size: 1.1rem;">
-                        Módulo de usuarios en desarrollo
-                    </p>
-                </div>
-            </div>
-        `;
-    }
-}
+
 
 
 // Global functions para onclick handlers

@@ -72,9 +72,6 @@
 }
 
 /* Efectos de hover mejorados para cards */
-.card:hover,
-.stat-card:hover,
-.project-card:hover,
 .activity-item:hover,
 .chat-item:hover,
 .task-item:hover,
@@ -88,11 +85,7 @@
 .agent-card-enhanced:hover,
 .kpi-card-enhanced:hover,
 .settings-card-enhanced:hover,
-.widget:hover {
-    border-color: var(--mep-primary-400);
-    box-shadow: var(--shadow-lg);
-    transform: translateY(calc(-1 * var(--elevation-2)));
-}
+
 
 /* Cards con borde de color lateral */
 .card-with-accent,

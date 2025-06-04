@@ -2,6 +2,7 @@
 
 class DashboardModule {
     constructor() {
+        this.title = "Inicio";
         this.data = {
             stats: {},
             projects: [],
@@ -274,12 +275,20 @@ class DashboardModule {
     }
 
     async afterRender() {
+
+            const titleElement = document.getElementById('pageTitle');
+    if (titleElement) {
+        titleElement.textContent = "Inicio";
+    }
+    document.title = `Inicio - ${MEP_CONFIG.APP_NAME}`;
         // Initialize any dashboard-specific functionality
         this.initCharts();
         this.startRealtimeUpdates();
     }
 
     initCharts() {
+        
+
         // Initialize charts if needed
         console.log('Initializing dashboard charts...');
     }
